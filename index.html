@@ -1,75 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- BOOSTARP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- ----FONTFAMILY -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment_2</title>
+    <title>Dummy_Site</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-<!-- --------------------TOPNAV------------------------------- -->
-    <nav class="navbar navbar-expand-lg navbar">
+    <!-- --------------------TOPNAV------------------------------- -->
+    <nav class="navbar navbar-expand-lg navbar tnav">
         <div class="container-fluid d-flex">
-         <a class="navbar-brand" href="#">  
+            <a class="navbar-brand" href="#">
 
-            <div class="logo col-1">
-                <img src="images/logo_talent.png" alt="" srcset="">
+                <div class="logo col-1">
+                    <img src="images/logo_talent.png" alt="" srcset="">
+                </div>
+            </a>
+
+            <div class="container ms-5 d-none d-md-block col-4">
+                <p class="mb-0 navp">Create New Learning Path</p>
+                <p class="navp2">Learning Path > Learning Path > Create New Learning Path</p>
             </div>
-         </a>
-        
-         <div class="container col-4">
-            <p class="mb-0">Create New Learning Path</p> 
-            <p>Learning Path > Learning Path > Create New Learning Path</p>
-         </div>
-        
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto d-flex flex-row align-items-start justify-content-center flex-sm-row align-items-lg-center gap-3 ">
+                <ul
+                    class="navbar-nav ms-auto d-flex flex-grow-1 flex-row align-items-start justify-content-end flex-sm-row align-items-lg-center gap-3 ">
 
                     <div class="nav-item">
                         <div class="images d-flex ima">
-                            <a class="nav-link" href="seting.html">     
+                            <a class="nav-link" href="seting.html">
                                 <div class="images ima d-flex">
                                     <img src="images/flg.png" alt="" srcset="">
                                     <p style="margin: 0% 2px;">EN(UK)</p>
                                     <img src="images/down-chevron.png" alt="" srcset="">
                                 </div>
-                        </a>
+                            </a>
                         </div>
                     </div>
 
                     <div class="nav-item">
                         <div class="images d-flex ima">
-                            <a class="nav-link" href="seting.html">     
-                            <img src="images/icons8-notification-30.png" alt="" srcset="">
-                        </a>
+                            <a class="nav-link" href="seting.html">
+                                <img src="images/icons8-notification-30.png" alt="" srcset="">
+                            </a>
                         </div>
                     </div>
-                    
+
                     <div class="nav-item">
                         <div class="images d-flex ima">
-                            <a class="nav-link" href="seting.html">     
-                            <img src="images/settings.png" alt="" srcset="">
-                        </a>
+                            <a class="nav-link" href="seting.html">
+                                <img src="images/settings.png" alt="" srcset="">
+                            </a>
                         </div>
                     </div>
-                    
+
                     <div class="nav-item">
                         <div class="images d-flex ima">
-                            <a class="nav-link d-flex" href="seting.html">     
+                            <a class="nav-link d-flex" href="seting.html">
                                 <div class="images " style="width: 40px;">
                                     <img style="width: 100%;" src="images/image.png" alt="" srcset="">
                                 </div>
                                 <div class="megan">
-                                    <span class="m1" >Megan Roberts</span>
+                                    <span class="m1">Megan Roberts</span>
                                     <div>
-                                        <span class="m2" >Admin</span>
+                                        <span class="m2">Admin</span>
                                     </div>
                                 </div>
                             </a>
@@ -78,109 +84,563 @@
 
                     <div class="nav-item">
                         <div class="images d-flex ima">
-                            <a class="nav-link" href="seting.html">     
+                            <a class="nav-link" href="seting.html">
                                 <img src="images/down-chevron.png" alt="" srcset="">
-                        </a>
+                            </a>
                         </div>
                     </div>
-                    
+
                 </ul>
             </div>
         </div>
     </nav>
-<!-- ---------------SideNav----------------------- -->
-<div class="container-fluid">
-    <div class="row">
-        <nav class="col-md-3 col-lg-2 navbar-expand-lg navbar ">
+    <!-- ---------------SideNav----------------------- -->
+    <div class="container-fluid  r1">
+        <div class="row r1 d-flex ">
+            <nav class="col-md-3 col-lg-2 navbar-expand-lg navbar sn  d-flex align-items-start p-2 " >
 
-            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNa">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <div class="col-12 d-flex flex-column align-items-center">
-            
-                <div class="collapse navbar-collapse ns" id="navbarNa">
-                    <ul class="navbar-nav d-flex flex-column align-items-center justify-content-center gap-2 p-1 ns ">
-    
-                        <div class="nav-item2">
-                                <a class="nav-link" href="#">     
+                <button class="navbar-toggler ms-2 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNa">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="col-12 d-flex flex-column align-items-center" >
+
+                    <div class="collapse navbar-collapse ns  " id="navbarNa">
+                        <ul
+                            class="navbar-nav d-flex flex-column align-items-center justify-content-center gap-2  ns  ">
+
+                            <div class="nav-item2">
+                                <a class="nav-link" href="#">
                                     <div class="dash d-flex justify-content-between align-items-center gap-2">
                                         <img src="img/dashboard@2x.png" alt="" srcset="">
                                         <span>DASHBOARD</span>
                                         <div class="flex-grow-1">
-                                            <img  src="images/greater-than-symbol.png" alt="" srcset="">
+                                            <img src="images/greater-than-symbol.png" alt="" srcset="">
                                         </div>
                                     </div>
-                            </a>
-                        </div>
-                        <div class="nav-item2">
-                                <a class="nav-link" href="seting.html">     
+                                </a>
+                            </div>
+                            <div class="nav-item2">
+                                <a class="nav-link" href="seting.html">
                                     <div class="dash d-flex justify-content-between align-items-center gap-2">
                                         <img src="img/team.png" alt="" srcset="">
                                         <span>TEAM MEMBERS</span>
                                         <div class="flex-grow-1">
-                                            <img  src="images/greater-than-symbol.png" alt="" srcset="">
+                                            <img src="images/greater-than-symbol.png" alt="" srcset="">
                                         </div>
                                     </div>
-                            </a>
-                        </div>
-                        <div class="nav-item2">
-                                <a class="nav-link" href="seting.html">     
+                                </a>
+                            </div>
+                            <div class="nav-item2">
+                                <a class="nav-link" href="seting.html">
                                     <div class="dash d-flex justify-content-between align-items-center gap-2">
                                         <img src="img/dashboard.svg" alt="" srcset="">
                                         <span>PROJECTS</span>
                                         <div class="flex-grow-1">
-                                            <img  src="images/greater-than-symbol.png" alt="" srcset="">
+                                            <img src="images/greater-than-symbol.png" alt="" srcset="">
                                         </div>
                                     </div>
-                            </a>
-                        </div>
-                        <div class="nav-item2">
-                                <a class="nav-link" href="seting.html">     
+                                </a>
+                            </div>
+                            <div class="nav-item2">
+                                <a class="nav-link" href="seting.html">
                                     <div class="dash d-flex justify-content-between align-items-center gap-2">
                                         <img src="img/public-relation.png" alt="" srcset="">
                                         <span>CLIENTS</span>
                                         <div class="flex-grow-1">
-                                            <img  src="images/greater-than-symbol.png" alt="" srcset="">
+                                            <img src="images/greater-than-symbol.png" alt="" srcset="">
                                         </div>
                                     </div>
-                            </a>
-                        </div>
-    
-                        <div class="nav-item2">
-                                <a class="nav-link" href="seting.html">     
+                                </a>
+                            </div>
+
+                            <div class="nav-item2">
+                                <a class="nav-link" href="seting.html">
                                     <div class="dash d-flex justify-content-between align-items-center gap-2">
-                                        <img src="img/online-education.png" alt="" srcset="">
+                                        <img src="img/Learn_path2.png" alt="" srcset="">
                                         <span>LEARNING PATHS</span>
                                         <div class="flex-grow-1">
-                                            <img  src="images/greater-than-symbol.png" alt="" srcset="">
+                                            <img src="images/down-chevron.png" alt="" srcset="">
                                         </div>
                                     </div>
-                            </a>
-                        </div>
-    
-                    </ul>
+                                </a>
+                                <div class="d-flex flex-column gap-2 mx-2 mb-2">
+                                    <div class=" dash d-flex gap-2 ms-4">
+                                        <img src="img/learn_path.png" alt="" srcset="">
+                                        <span>Learning Path</span>
+                                        
+                                    </div>
+                                    <div class=" dash d-flex gap-2 ms-4">
+                                        <img src="img/courses.png" alt="" srcset="">
+                                        <span>Courses</span>
+                                    </div>
+                                    <div class=" dash d-flex gap-2 ms-4">
+                                        <img src="img/skill.png" alt="" srcset="">
+                                        <span>Skill Sets</span>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </ul>
+                    </div>
                 </div>
+            </nav>
+
+            <!-- --------------------------------MainBody--------------------------------------- -->
+            <div class="col-md-7 col-lg-9 flex-grow-1 mainform">
+
+                <div class="mainhead d-flex justify-content-between bg-light mt-3">
+                    <div class="mob p-3">
+                        <span>
+                            <p class="mb-0 navp" style="font-size: 17px;">Create New Learning Path</p>
+                        </span>
+                    </div>
+
+                    <div class="d-flex p-3 gap-3 justify-content-center align-items-center">
+                        <button class="bt cancel" type="submit">CANCEL</button>
+                        <button class="bt savebt" type="submit">SAVE</button>
+                    </div>
+                </div>
+
+                <div class="mainarea  mt-1  p-3">
+
+                    <div class="profile col-12 d-flex flex-md-row flex-column gap-3 mt-2">
+
+                        <div class="photo  col-2 d-flex  justify-content-center ">
+                            <div class="photo1  col-2 d-flex justify-content-center">
+                                <img src="img/Full_stack.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="data flex-grow-1 d-flex gap-2">
+                            <div class=" flex-grow-1 d-flex flex-column fname firstname">
+                                <label class="required" for="">Learning Path</label>
+                                <input type="text" placeholder="Title">
+
+                                <div class=" flex-grow-1 d-flex flex-column  femail mt-4">
+                                    <label class="required" for="">Description</label>
+                                    <input type="text">
+                                </div>
+                            </div>
+
+                            <div class=" flex-grow-1 d-flex flex-column fname lastname">
+                                <label class="required" for="">Select Courses </label>
+                                <select name="" id="" > 
+                                    <option></option>
+                                    <option value="">UI Development</option>
+                                    <option value="">Web Development</option>
+                                    <option value="">Database</option>
+                                    <option value="">Azure</option>
+                                    <option value="">UX Development</option>
+                                    <option value="">Power BI</option>
+                                    <option value="">Web Development</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    
+<!-----------------------GRID_Area------------------------------>
+<div class="d-flex d-lg-none d-block align-items-center my-4 course">
+    <span>Coursess Added</span> <!-- Span -->
+</div>
+
+<div class="container-fluid  d-lg-none d-flex mt-4 flex-wrap">
+    <div class="card" style="width: 18rem;">
+        <!-- <img src="img/web_dev.png" class="card-img-top" alt="..."> -->
+        <div class="card-body">
+          <h3 class="card-title">Web Development</h3>
+          <h6>Skill Sets</h6>
+          <div class="d-flex flex-wrap card-text gap-2 W-100">
+                                
+            <div class="skills">
+                <p>HTML</p>
             </div>
-        </nav>
+            <div  class="skills">
+                <p>PYTHON</p>
+             
+            </div>
+            <div  class="skills">
+                <p>CSS</p>
 
-<!-- --------------------------------MainBody--------------------------------------- -->
-<div class="col-md-7 col-lg-9 flex-grow-1 mainform">
+            </div>
+            <div  class="skills">
+                <p>JAVA</p>
+    
+            </div>
+            <div  class="skills">
+                <p>BOOTSTARP</p>
+                
+            </div>
+        </div>
 
-    <div class="mainhead d-flex justify-content-between bg-light mt-3">
-        <div class="mob p-3" >
-            <span><p class="mb-0">Create New Learning Path</p></span>
+        <div class="d-flex flex-column pass card-text">
+        <h6 class="mb-0 mt-2">Description</h6>
+            <a href="#">https://app.intimepro.io/app/main/dashboard</a>
+            <p class="mb-0">ID: adam.murphy@mail.com</p>
+            <p class="mb-0">Password: qwerty123</p>
         </div>
-        
-        <div class="d-flex p-3 gap-3 justify-content-center align-items-center">
-            <button class="bt cancel" type="submit">CANCEL</button>
-            <button class="bt savebt" type="submit">SAVE</button>
         </div>
-        <!-- <hr class="mb-1 mt-0"> -->
-        </div>
-        <div class="mainarea mx-1 mt-1 my-2">
+      </div>
+      
+      <div class="card" style="width: 18rem;">
+        <!-- <img src="img/web_dev.png" class="card-img-top" alt="..."> -->
+        <div class="card-body">
+          <h3 class="card-title">Web Development</h3>
+          <h6>Skill Sets</h6>
+          <div class="d-flex flex-wrap card-text gap-2 W-100">
+                                
+            <div class="skills">
+                <p>HTML</p>
+            </div>
+            <div  class="skills">
+                <p>PYTHON</p>
+             
+            </div>
+            <div  class="skills">
+                <p>CSS</p>
 
-            djshf
+            </div>
+            <div  class="skills">
+                <p>JAVA</p>
+    
+            </div>
+            <div  class="skills">
+                <p>BOOTSTARP</p>
+                
+            </div>
+        </div>
+
+        <div class="d-flex flex-column pass card-text">
+        <h6 class="mb-0 mt-2">Description</h6>
+            <a href="#">https://app.intimepro.io/app/main/dashboard</a>
+            <p class="mb-0">ID: adam.murphy@mail.com</p>
+            <p class="mb-0">Password: qwerty123</p>
+        </div>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <!-- <img src="img/web_dev.png" class="card-img-top" alt="..."> -->
+        <div class="card-body">
+          <h3 class="card-title">Web Development</h3>
+          <h6>Skill Sets</h6>
+          <div class="d-flex flex-wrap card-text gap-2 W-100">
+                                
+            <div class="skills">
+                <p>HTML</p>
+            </div>
+            <div  class="skills">
+                <p>PYTHON</p>
+             
+            </div>
+            <div  class="skills">
+                <p>CSS</p>
+
+            </div>
+            <div  class="skills">
+                <p>JAVA</p>
+    
+            </div>
+            <div  class="skills">
+                <p>BOOTSTARP</p>
+                
+            </div>
+        </div>
+
+        <div class="d-flex flex-column pass card-text">
+        <h6 class="mb-0 mt-2">Description</h6>
+            <a href="#">https://app.intimepro.io/app/main/dashboard</a>
+            <p class="mb-0">ID: adam.murphy@mail.com</p>
+            <p class="mb-0">Password: qwerty123</p>
+        </div>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <!-- <img src="img/web_dev.png" class="card-img-top" alt="..."> -->
+        <div class="card-body">
+          <h3 class="card-title">Web Development</h3>
+          <h6>Skill Sets</h6>
+          <div class="d-flex flex-wrap card-text gap-2 W-100">
+                                
+            <div class="skills">
+                <p>HTML</p>
+            </div>
+            <div  class="skills">
+                <p>PYTHON</p>
+             
+            </div>
+            <div  class="skills">
+                <p>CSS</p>
+
+            </div>
+            <div  class="skills">
+                <p>JAVA</p>
+    
+            </div>
+            <div  class="skills">
+                <p>BOOTSTARP</p>
+                
+            </div>
+        </div>
+
+        <div class="d-flex flex-column pass card-text">
+        <h6 class="mb-0 mt-2">Description</h6>
+            <a href="#">https://app.intimepro.io/app/main/dashboard</a>
+            <p class="mb-0">ID: adam.murphy@mail.com</p>
+            <p class="mb-0">Password: qwerty123</p>
+        </div>
+        </div>
+      </div>
+</div>
+                    <div class="d-flex d-none d-lg-block align-items-center my-4 course">
+                        <span>Coursess Added</span> <!-- Span -->
+                    </div>
+                    
+                    <div class="container cont d-none d-lg-grid ">
+
+                        <div class="form">
+                            <div>
+                                <p>Courses</p>
+                            </div>
+                        </div>
+
+                        <div class="form ">
+                            <div>
+                                <p>Skill Sets</p>
+                            </div>
+                        </div>
+
+                        <div class="form ">
+                            <div>
+                                <p>Description</p>
+                            </div>
+                        </div>
+
+                        <div class="form d-flex justify-content-center">
+                            <div>
+                                <p>Action</p>
+                            </div>
+                        </div>
+                  
+                        <div class="form_details d-flex justify-content-start align-items-center">
+                            <div class="d-flex gap-2">
+                                <div class="">
+                                    <img src="img/web_dev.png" alt="" srcset="">
+                                </div>
+
+                                <div class=" d-flex flex-column flex-wrap ">
+                                    <div><p class="mb-0">Web Development</p></div>
+                                    <div><span>Duration: </span><img src="img/timer.png" alt=""> <span>85hrs</span></div>
+                                </div>
+                            </div>
+                        </div>
+             
+                        <div class="form_details d-flex justify-content-start    align-items-center">
+                            <div class="d-flex gap-2 flex-wrap">
+                                
+                                <div class="skills">
+                                    <span>HTML</span>
+                                </div>
+                                <div  class="skills">
+                                    <span>PYTHON</span>
+                                </div>
+                                <div  class="skills">
+                                    <span>CSS</span>
+                                </div>
+                                <div  class="skills">
+                                    <span>JAVA</span>
+                                </div>
+                                <div  class="skills">
+                                    <span>BOOTSTRAP</span>
+                                </div>
+                                <div  class="skills">
+                                    <span>JAVASCRIPT</span>
+                                </div>
+                                <div  class="skill2 d-flex justify-content-center align-items-center">
+                                    <p class="skills2 mb-0">+2</p>
+                                </div>
+                            </div>
+                         </div>
+                        
+                        <div class="form_details ">
+                            <div class="d-flex  flex-column gap-2 pass flex-wrap">
+                                <a href="#">https://app.intimepro.io/app/main/dashboard</a>
+                                <p class="mb-0">ID: adam.murphy@mail.com</p>
+                                <p class="mb-0">Password: qwerty123</p>
+                            </div>
+                        </div>
+
+                        <div class="form_details d-flex justify-content-center align-items-start flex-wrap">
+                            <img src="img/delete.png" alt="">
+                        </div>
+                        
+                        <div class="form_details d-flex justify-content-start align-items-center">
+                            <div class="d-flex gap-2">
+                                <div class="">
+                                    <img src="img/Group 192701.jpg" alt="" srcset="">
+                                </div>
+
+                                <div class="">
+                                    <div><p class="mb-0">UI Development</p></div>
+                                    <div><span>Duration: </span><img src="img/timer.png" alt=""> <span>80hrs</span></div>
+                                </div>
+                            </div>
+                        </div>
+             
+                        <div class="form_details d-flex justify-content-start align-items-center">
+                            <div class="d-flex gap-2 ">
+                                
+                                <div class="skills">
+                                    <span>HTML</span>
+                                </div>
+                                <div  class="skills">
+                                    <span>PYTHON</span>
+                                </div>
+                                <div  class="skills">
+                                    <span>CSS</span>
+                                </div>
+                                <div  class="skills">
+                                    <span>JAVA</span>
+                                </div>
+                        
+                                <div  class="skill2 d-flex justify-content-center align-items-center">
+                                    <p class="skills2 mb-0">+3</p>
+                                </div>
+                            </div>
+                         </div>
+                        
+                        <div class="form_details">
+                            <div class="d-flex flex-column gap-2 pass flex-wrap">
+                                <a href="#">https://sample.edu/day</a>
+                                <p class="mb-0">ID: adam.murphy@mail.com</p>
+                                <p class="mb-0">Password: qwerty123</p>
+                            </div>
+                        </div>
+
+                        <div class="form_details d-flex justify-content-center align-items-start flex-wrap">
+                            <img src="img/delete.png" alt="">
+                        </div>
+                        <div class="form_details d-flex justify-content-start align-items-center">
+                            <div class="d-flex gap-2">
+                                <div class="">
+                                    <img src="img/power_bi.png" alt="" srcset="">
+                                </div>
+
+                                <div class="">
+                                    <div><p class="mb-0">Power BI</p></div>
+                                    <div><span>Duration: </span><img src="img/timer.png" alt=""> <span>65hrs</span></div>
+                                </div>
+                            </div>
+                        </div>
+             
+                        <div class="form_details d-flex justify-content-start align-items-center">
+                            <div class="d-flex gap-2 ">
+                                
+                                <div class="skills">
+                                    <span>HTML</span>
+                                </div>
+                                <div  class="skills">
+                                    <span>PYTHON</span>
+                                </div>
+                                <div  class="skills">
+                                    <span>CSS</span>
+                                </div>
+                                <div  class="skills">
+                                    <span>JAVA</span>
+                                </div>
+                          
+                                <div  class="skill2 d-flex justify-content-center align-items-center">
+                                    <p class="skills2 mb-0">+3</p>
+                                </div>
+                            </div>
+                         </div>
+                        
+                        <div class="form_details">
+                            <div class="d-flex flex-column gap-2 pass flex-wrap">
+                                <a href="#">http://www.sample.org/head</a>
+                                <p class="mb-0">ID: adam.murphy@mail.com</p>
+                                <p class="mb-0">Password: qwerty123</p>
+                            </div>
+                        </div>
+
+                        <div class="form_details d-flex justify-content-center align-items-start flex-wrap">
+                            <img src="img/delete.png" alt="">
+                        </div>
+                        <div class="form_details d-flex justify-content-start align-items-center">
+                            <div class="d-flex gap-2">
+                                <div class="">
+                                    <img src="img/database.png" alt="" srcset="">
+                                </div>
+
+                                <div class="">
+                                    <div><p class="mb-0">Database</p></div>
+                                    <div><span>Duration: </span><img src="img/timer.png" alt=""> <span>72hrs</span></div>
+                                </div>
+                            </div>
+                        </div>
+             
+                        <div class="form_details d-flex justify-content-start align-items-center">
+                            <div class="d-flex gap-2 ">
+                                
+                                <div  class="skills">
+                                    <span>CSS</span>
+                                </div>
+                                <div  class="skills">
+                                    <span>JAVA</span>
+                                </div>
+                                <div  class="skills">
+                                    <span>BOOTSTRAP</span>
+                                </div>
+                                <div  class="skills">
+                                    <span>JAVASCRIPT</span>
+                                </div>
+                                <div  class="skill2 d-flex justify-content-center align-items-center">
+                                    <p class="skills2 mb-0">+2</p>
+                                </div>
+                            </div>
+                         </div>
+                        
+                        <div class="form_details">
+                            <div class="d-flex flex-column gap-2 pass flex-wrap ">
+                                <a href="#">http://www.sample.org/head</a>
+                                <p class="mb-0">ID: adam.murphy@mail.com</p>
+                                <p class="mb-0">Password: qwerty123</p>
+                            </div>
+                        </div>
+
+                        <div class="form_details d-flex justify-content-center align-items-start flex-wrap">
+                            <img src="img/delete.png" alt="">
+                        </div>
+                </div>
+                
+<!-- ------------------Pagignation----------------------- -->
+                <nav aria-label="Page navigation example" class="mt-5">
+                    <ul class="pagination justify-content-end gap-2 pageing">
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Previous">
+                              <span aria-hidden="true" class="text-dark">&laquo;</span>
+                            </a>
+                          </li>
+                      <li class="page-item  d-flex justify-content-center">
+                            <a class="page-link pp d-flex justify-content-center align-items-center"><img src="img/left-chevron.png" alt=""></a>
+                      </li>
+
+                      <li class="page-item"><a class="page-link p1" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item">
+                        <a class="page-link"><img src="img/icons8-right-chevron-10.png" alt=""></a>
+                        
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true" class="text-dark ">&raquo;</span>
+                          </a>
+                      </li>
+                    </ul>
+                  </nav>
+
+            </div>
         </div>
     </div>
     </div>
@@ -188,4 +648,5 @@
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </html>
