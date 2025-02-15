@@ -62,6 +62,7 @@ body{
     color: gray;
     font-weight: 300;
 }
+
 /* --------------------------Sidebar------------------------------ */
 
 .sidebar {
@@ -93,19 +94,17 @@ body{
         float: right;
     }
    
-.sn
-{
-
-    /* box-shadow: 1px 0p   x 5px rgb(201, 202, 202); */
-
-}
 /* ---------------------Main------------------- */
+
 label
 {
     font-size: 16px;
     font-weight: 400;
 }
-input, select {
+textarea {
+    resize: none;
+}
+input, select ,textarea{
     width: 100%;
     padding: 5px;
     border: 1px solid #ccc;
@@ -146,7 +145,7 @@ input, select {
     background-color: #fff;
     overflow-y: auto;
 }
-.femail input
+.femail textarea
 {
     height: 15vh;
 }
@@ -160,6 +159,7 @@ input, select {
     box-shadow: 3px 0px 8px rgba(0, 0, 0, 0.24);
 
 } */
+
 /* -------------------------Grid----------------------------- */
 .course span
 {
@@ -258,9 +258,40 @@ font-size: 14px;
     border: none !important;
 }
 
-@media screen and (max-width:991px) {
-    .sn 
+
+
+@media (max-width: 767px) {
+    .photo1 img {
+      height: 100%;
+    }
+
+    .photo
     {
-        align-self: flex-start;
-    }   
+        align-self: center;
+    }
+ 
+}
+  
+  @media (max-width:321px)
+  {
+    .mob
+    {
+        display: none;
+    }
+    .mainhead
+    {
+        justify-content: center !important;
+    }
+    .data
+    {
+        flex-direction: column;
+    }
+    .p
+    {
+        display: none;
+    }
+    .pageing
+    {
+        justify-content: center;
+    }
 }
